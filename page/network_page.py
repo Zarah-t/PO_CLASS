@@ -24,3 +24,6 @@ class NetworkPage(BaseAction):
 
     def click_3g_network(self):
         self.click(self.network_3g_button)
+        
+    def click_4g_network(self):
+        self.click(self.network_3g_button)
